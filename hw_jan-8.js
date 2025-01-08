@@ -12,14 +12,14 @@ function subtractionOfTwoNumber(num1, num2) {
     let subtraction = num1 - num2;
     return subtraction;
 }
-console.log(subtractionOfTwoNumber(6, 5));
+console.log(`Subtraction of ${6} and ${5} is: ${subtractionOfTwoNumber(6, 5)}`);
 
 // LCM of two number
 function lcmOfTwoNumber(num1, num2) {
     let lcm = (num1 * num2) / (gcdOfTwoNumber(num1, num2));
     return lcm;
 }
-console.log(lcmOfTwoNumber(6, 5));
+console.log(`LCM of ${6} and ${5} is: ${lcmOfTwoNumber(6, 5)}`);
 
 // GCD of two number
 function gcdOfTwoNumber(num1, num2) {
@@ -31,4 +31,4 @@ function gcdOfTwoNumber(num1, num2) {
     }
     return gcd;
 }
-console.log(gcdOfTwoNumber(6, 5));
+console.log(`GCD of ${6} and ${5} is: ${gcdOfTwoNumber(6, 5)}`);
